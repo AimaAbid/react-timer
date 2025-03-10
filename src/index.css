@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html,body{
+    max-width: 100%;
+    overflow-x: hidden;
+    min-height: 100%;
+}
+
+@font-face {
+    font-family: "Orbitron";
+    src: url("/fonts/Orbitron.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.orbitron {
+    font-family: "Orbitron", sans-serif;
+    font-size: 30px;
+
+    font-weight: 800;
+}
+
+.rotate {
+    transform: rotate(3deg); /* Rotates the div 90 degrees clockwise */
+}
+
+@media (max-width: 450px) {
+    .orbitron {
+        font-size: 20px !important;
+    }
+
+  
+}
