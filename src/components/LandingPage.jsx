@@ -1,5 +1,6 @@
 import WomanPic from "/assets/WomanPicture.jpg";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 export default function LandingPage() {
 	const navigate = useNavigate();
 
@@ -55,9 +56,18 @@ export default function LandingPage() {
 								<path d="M176,16H80A24,24,0,0,0,56,40V216a24,24,0,0,0,24,24h96a24,24,0,0,0,24-24V40A24,24,0,0,0,176,16ZM72,64H184V192H72Zm8-32h96a8,8,0,0,1,8,8v8H72V40A8,8,0,0,1,80,32Zm96,192H80a8,8,0,0,1-8-8v-8H184v8A8,8,0,0,1,176,224Z"></path>
 							</svg>
 						</div>
+
 					</div>
+
 				</div>
+				<button className="bg-yellow-200 sm:px-6 py-2 px-4  rounded-3xl shadow-md mx-2 my-1 "><Link to="/accordian">Accordian</Link></button>
+
+				<button className="bg-yellow-200 sm:px-6 py-2 px-4  rounded-3xl shadow-md mx-2 my-1"><Link to='/hook'>CustomHook</Link></button>
+				<button className="bg-yellow-200 sm:px-6 py-2 px-4  rounded-3xl shadow-md mx-2 my-1"><Link to='/timer'>Timer</Link></button>
 			</div>
+
+
+
 		</div>
 	);
 }
