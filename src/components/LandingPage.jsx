@@ -60,10 +60,10 @@ export default function LandingPage() {
 					</div>
 
 				</div>
-				<button className="bg-yellow-200 sm:px-6 py-2 px-4  rounded-3xl shadow-md mx-2 my-1 "><Link to="/accordian">Accordian</Link></button>
+				<button className="bg-yellow-200 sm:px-6 py-2 px-3  rounded-3xl shadow-md sm:mx-2 my-2 "><Link to="/accordian">Accordian</Link></button>
 
-				<button className="bg-yellow-200 sm:px-6 py-2 px-4  rounded-3xl shadow-md mx-2 my-1"><Link to='/hook'>CustomHook</Link></button>
-				<button className="bg-yellow-200 sm:px-6 py-2 px-4  rounded-3xl shadow-md mx-2 my-1"><Link to='/timer'>Timer</Link></button>
+				<button className="bg-yellow-200 sm:px-6 py-2 px-3  rounded-3xl shadow-md sm:mx-2 my-2"><Link to='/hook'>CustomHook</Link></button>
+				<button className="bg-yellow-200 sm:px-6 py-2 px-3  rounded-3xl shadow-md sm:mx-2 my-2"><Link to='/timer'>Timer</Link></button>
 			</div>
 
 
